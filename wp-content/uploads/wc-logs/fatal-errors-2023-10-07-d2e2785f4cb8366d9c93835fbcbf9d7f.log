@@ -1,0 +1,530 @@
+2023-10-07T02:03:16+00:00 CRITICAL syntax error, unexpected token ")", expecting ":" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 11
+
+2023-10-07T02:15:11+00:00 CRITICAL syntax error, unexpected token ")" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 19
+
+2023-10-07T02:15:36+00:00 CRITICAL syntax error, unexpected token ")" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 19
+
+2023-10-07T02:16:11+00:00 CRITICAL syntax error, unexpected token ")" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 19
+
+2023-10-07T02:17:36+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 22
+
+2023-10-07T02:18:12+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 22
+
+2023-10-07T02:19:37+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 22
+
+2023-10-07T02:20:13+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 22
+
+2023-10-07T02:21:38+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 22
+
+2023-10-07T02:22:14+00:00 CRITICAL syntax error, unexpected token ")" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 21
+
+2023-10-07T02:23:39+00:00 CRITICAL syntax error, unexpected token ")" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 21
+
+2023-10-07T06:32:39+00:00 CRITICAL Unclosed '{' on line 6 does not match ')' in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 136
+
+2023-10-07T06:34:16+00:00 CRITICAL Unclosed '{' on line 6 does not match ')' in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 136
+
+2023-10-07T06:34:17+00:00 CRITICAL Unclosed '{' on line 6 does not match ')' in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 136
+
+2023-10-07T16:08:56+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 293
+
+2023-10-07T16:09:27+00:00 CRITICAL Unclosed '(' on line 292 does not match '}' in D:\Website\ntm_wp\wp-content\themes\kidtheme\inc\customizer.php on line 293
+
+2023-10-07T16:38:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:38:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:39:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:40:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:41:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:41:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:41:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', false, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(false)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:53:30+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:53:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:53:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:54:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:54:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:54:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:54:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:54:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:55:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:55:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:56:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(1840): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#5 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(944): WP_Customize_Setting->preview()
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\Website\ntm_wp\wp-settings.php(654): do_action('wp_loaded')
+#10 D:\Website\ntm_wp\wp-config.php(96): require_once('D:\\Website\\ntm_...')
+#11 D:\Website\ntm_wp\wp-load.php(50): require_once('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-blog-header.php(13): require_once('D:\\Website\\ntm_...')
+#13 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#14 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:56:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:57:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:58:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:58:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T16:59:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:00:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:01:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:02:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:03:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:04:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:05:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:06:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:07:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "kidtheme_sanitize_checkbox(" not found or invalid function name in D:\Website\ntm_wp\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Website\ntm_wp\wp-includes\class-wp-customize-setting.php(576): apply_filters('customize_sanit...', true, Object(WP_Customize_Setting))
+#2 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2378): WP_Customize_Setting->sanitize(true)
+#3 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2783): WP_Customize_Manager->validate_setting_values(Array, Array)
+#4 D:\Website\ntm_wp\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#5 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->save('')
+#6 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Website\ntm_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Website\ntm_wp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#9 {main}
+  thrown in D:\Website\ntm_wp\wp-includes\class-wp-hook.php on line 310
+
+2023-10-07T17:08:28+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php:82
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include()
+#1 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#2 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#3 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php on line 82
+
+2023-10-07T17:08:35+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php:82
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include()
+#1 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#2 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#3 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php on line 82
+
+2023-10-07T17:08:36+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php:82
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include()
+#1 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#2 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#3 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php on line 82
+

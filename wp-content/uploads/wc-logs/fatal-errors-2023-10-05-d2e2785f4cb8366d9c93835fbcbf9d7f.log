@@ -1,0 +1,24 @@
+2023-10-05T15:01:47+00:00 CRITICAL Uncaught Error: Class "bootstrap_5_wp_nav_menu_walker" not found in D:\Website\ntm_wp\wp-content\themes\kidtheme\header.php:50
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template.php(785): require_once()
+#1 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', true, Array)
+#2 D:\Website\ntm_wp\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-home.php(6): get_header()
+#4 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#5 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#6 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#7 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\header.php on line 50
+
+2023-10-05T15:01:47+00:00 CRITICAL Uncaught Error: Class "bootstrap_5_wp_nav_menu_walker" not found in D:\Website\ntm_wp\wp-content\themes\kidtheme\header.php:50
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template.php(785): require_once()
+#1 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', true, Array)
+#2 D:\Website\ntm_wp\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Website\ntm_wp\wp-content\themes\kidtheme\index.php(12): get_header()
+#4 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#5 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#6 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#7 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\header.php on line 50
+

@@ -10,6 +10,128 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce, custom-menu
 */
+.home .woocommerce-loop-product__title + p {
+  display: none;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani/Rajdhani-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani/Rajdhani-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani/Rajdhani-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani/Rajdhani-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Seaweed-Script";
+  src: url("fonts/seaweed-script/SeaweedScript-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+}
+
+/*Flex Slider*/
+.flexslider {
+  border: 0 !important;
+}
+.flex-control-nav {
+  bottom: 10px !important;
+}
+.slider-details-container {
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 800px;
+}
+.slider-details-container h1 {
+  font-family: "Seaweed-Script";
+  font-size: 3.7rem;
+}
+.slider-details-container .subtitle {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+.slider-details-container .slider-title {
+  color: #fff;
+  font-weight: 700;
+}
+.slider-details-container a {
+  background-color: #d2335b;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 0.8em;
+  display: inline-block;
+  font-size: 1.2em;
+}
+.slider-details-container a:hover {
+  color: #fff;
+}
+.flexslider .slides {
+  padding: 0 !important;
+}
+.flex-control-paging li a {
+  background: rgba(189, 189, 189, 0.5) !important;
+  height: 10px !important;
+  width: 15px !important;
+}
+.flex-control-paging li a.flex-active {
+  background: #d23358 !important;
+  width: 25px !important;
+}
+.flex-control-nav li {
+  margin: 0 2px !important;
+}
+
+@media all and (max-width: 767px) {
+  .slider-details-container {
+    margin: 0 25px;
+    max-width: 400px;
+  }
+  .slider-title h3 {
+    font-size: 2em;
+  }
+  .slider-details-container .subtitle {
+    font-size: 1em;
+  }
+  .slider-details-container a {
+    padding: 0.5em;
+  }
+}
+@media all and (max-width: 575px) {
+  .slider-details-container {
+    max-width: 300px;
+  }
+  .slider-details-container a {
+    padding: 0.7em;
+    font-size: 1em;
+  }
+  .flexslider img {
+    height: 500px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
 /* header -Main Menu */
 .main-menu {
   padding: 0;
@@ -31,6 +153,53 @@ Tags: e-commerce, custom-menu
 .main-menu ul li:last-child {
   margin: 0;
 }
+.main-menu .dropdown:hover > .dropdown-menu,
+.main-menu .dropup:hover > .dropdown-menu {
+  display: block;
+}
+.main-menu .navbar-toogle-icon {
+  background-image: url("img/icons8-menu.svg");
+}
+/* Seaarch Form*/
+.search-form button {
+  background-image: url("img/icons8-search.svg");
+  height: 23px;
+  width: 23px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+}
+.search-form input[type="search"] {
+  background-color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 110%;
+  padding: 0.3rem 1rem;
+  margin-right: 0.3rem;
+}
+.search-submit {
+  width: 30px;
+  height: 30px;
+}
+/* Cart*/
+.cart .cart-icon {
+  background: url("img/icons8-cart-24.png");
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.cart .items {
+  background: #ca2424;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
 /* Footer - footer Menu */
 .footer-menu ul,
 .footer-widgets ul {
@@ -60,6 +229,19 @@ Tags: e-commerce, custom-menu
 .woocommerce nav.woocommerce {
   background: #941f94;
   color: #ffffff !important;
+}
+/*Grid System*/
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+@media all and (max-width: 767px) {
+  .woocommerce .col2-set .col-1,
+  .woocommerce .col2-set .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 /*Shop*/
@@ -121,7 +303,7 @@ Tags: e-commerce, custom-menu
 }
 .woocommerce ul.products li.product .onsale {
   top: 19px;
-  left:-20px;
+  left: -20px;
   transform: rotate(90deg);
   border-radius: 0;
   width: 84px;
@@ -235,6 +417,10 @@ Tags: e-commerce, custom-menu
   border-width: 23px 22px 0 0;
   border-color: transparent #d2335b transparent;
 } */
+/*Cart*/
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+  width: 150px;
+}
 
 /*General*/
 .size-auto,
