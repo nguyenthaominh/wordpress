@@ -32,10 +32,14 @@ add_action('wp_enqueue_scripts','kidtheme_scripts');
 function kidtheme_config(){
   register_nav_menus(
     array(
-      'kidtheme_main_menu'=> 'KidTheme Main Menu',
-      'kidtheme_footer_menu' => 'KidTheme Footer Menu'
+      'kidtheme_main_menu'=> __('KidTheme Main Menu','kidtheme'),
+      'kidtheme_footer_menu' => __('KidTheme Footer Menu','kidtheme')
     )
     );
+    $textdomain='kidtheme';
+    load_theme_textdomain($textdomain,get_stylesheet_directory().'/languages/');
+    load_theme_textdomain($textdomain,get_template_directory().'/languages/');
+    
     add_theme_support('woocommerce',array(
       'thumbnail_image_width'=>255,
       'single_image_width'=>255,
@@ -57,10 +61,13 @@ function kidtheme_config(){
       'flex_height'=>true,
       'flex_width'=>true,
     ));
+    add_theme_support('post-thumbnails');
     add_image_size('kidtheme-slider',1920,800,array('center','center'));
+    add_image_size('kidtheme-blog',960,640,array('center','center'));
     if ( ! isset( $content_width ) ) {
       $content_width = 600;
     }
+    add_theme_support('title-tag');
     
 
 }
@@ -85,4 +92,54 @@ function kidtheme_woocommerce_header_add_to_cart_fragment( $fragments ) {
 	<?php
 	$fragments['span.items'] = ob_get_clean();
 	return $fragments;
+}
+add_action('widgets_init','kidtheme_sidebars');
+function kidtheme_sidebars(){
+  register_sidebar( array(
+    'name'        => __('Kidtheme Main Sidebar','kidtheme'),
+    'id'          =>  'kidtheme-sidebar-1',
+    'description' => __('Drag and drop your widgets here','kidtheme'),
+    'before_widget' =>'<div id="%1$s" class= "widget %2$s widget-wrapper">',
+    'after_widget'  =>'</div>',
+    'before_title' =>'<h4 class="widget-title">',
+    'after_title'   =>'</h4>'
+  ));
+  register_sidebar( array(
+    'name'        => __('Sidebar shop','kidtheme'),
+    'id'          =>  'kidtheme-sidebar-shop',
+    'description' => __('Drag and drop your WooCommerce widgets here','kidtheme'),
+    'before_widget' =>'<div id="%1$s" class= "widget %2$s widget-wrapper">',
+    'after_widget'  =>'</div>',
+    'before_title' =>'<h4 class="widget-title">',
+    'after_title'   =>'</h4>'
+  ));
+  register_sidebar( array(
+    'name'        => __('Footer Sidebar 1','kidtheme'),
+    'id'          =>  'kidtheme-sidebar-footer1',
+    'description' => __('Drag and drop your widgets here','kidtheme'),
+    'before_widget' =>'<div id="%1$s" class= "widget %2$s widget-wrapper">',
+    'after_widget'  =>'</div>',
+    'before_title' =>'<h4 class="widget-title">',
+    'after_title'   =>'</h4>'
+  ));
+  register_sidebar( array(
+    'name'        => __('Footer Sidebar 2','kidtheme'),
+    'id'          =>  'kidtheme-sidebar-footer2',
+    'description' => __('Drag and drop your widgets here','kidtheme'),
+    'before_widget' =>'<div id="%1$s" class= "widget %2$s widget-wrapper">',
+    'after_widget'  =>'</div>',
+    'before_title' =>'<h4 class="widget-title">',
+    'after_title'   =>'</h4>'
+  ));
+  register_sidebar( array(
+    'name'        => __('Footer Sidebar 3','kidtheme'),
+    'id'          =>  'kidtheme-sidebar-footer3',
+    'description' => __('Drag and drop your widgets here','kidtheme'),
+    'before_widget' =>'<div id="%1$s" class= "widget %2$s widget-wrapper">',
+    'after_widget'  =>'</div>',
+    'before_title' =>'<h4 class="widget-title">',
+    'after_title'   =>'</h4>'
+  ));
+
+
 }

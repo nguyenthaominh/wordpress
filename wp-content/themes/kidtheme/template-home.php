@@ -61,13 +61,17 @@ get_header();
           $arrivals_col=get_theme_mod('set_new_arrivals_max_col',4);
           ?>
           <div class="container">
-            <h2>Popular Product</h2>
+            <div class="section-title">
+            <h2><?php echo get_theme_mod('set_popular_title', __('Popular Product','kidtheme'));?></h2>
+            </div>
             <?php echo do_shortcode('[products limit="'.$popular_limit.'" columns="'.$popular_col.'" orderby="popularity"]');?>
           </div>
         </section>
         <section class="new-arrivals">
           <div class="container">
-          <h2>New Arrivals</h2>
+          <div class="section-title">
+            <h2><?php echo get_theme_mod('set_new_arrivals_title', __('New Arrivals','kidtheme'));?></h2>
+          </div>
           <?php echo do_shortcode('[products limit="'.$arrivals_limit.'" columns="'.$arrivals_col.'" orderby="date"]');?>
           </div>
         </section>
@@ -83,7 +87,10 @@ get_header();
         ?>
         <section class="deal-of-the-week">
           <div class="container">
-              <h2>Deal of the Week</h2>
+            <div class="section-title">
+            <h2><?php echo get_theme_mod('set_deal_title', __('Deal of the Week','kidtheme'));?></h2>
+            </div>
+              <h2></h2>
               <div class="row d-flex algin-items-center">
               <div class="deal-img col-md-6 col-12 ml-auto text-center">
                 <?php echo get_the_post_thumbnail( $deal,'large',array('class'=>'img-fluid'));?>
@@ -91,7 +98,7 @@ get_header();
               <div class="deal-desc col-md-4 col-12 mr-auto text-center">
                 <?php if(!empty($sale)):?>
                   <span class="discount">
-                    <php echo $discount_percentage.'%OFF';?>
+                <?php echo $discount_percentage. __( '% OFF','kidtheme');?>
                   </span>
                 <?php endif;?>
                 <h3>
@@ -114,7 +121,7 @@ get_header();
                   </span>
                   <?php endif;?>
               </div>
-              <a href="<?php echo esc_url('add-to-cart='.$deal);?>" class="add-to-cart"> Add to Cart </a>
+              <a href="<?php echo esc_url('add-to-cart='.$deal);?>" class="add-to-cart"><?php _e('Add to Cart','kidtheme'); ?> </a>
               </div>
             </div>
           </div>
@@ -124,20 +131,38 @@ get_header();
           <?php endif;?>
         <section class="lab-blog">
           <div class="container">
+            <div class="section-title">
+              <h2><?php echo get_theme_mod('set_blog_title',__('News From Our Blog','kidtheme'));?></h2>
+
+            </div>
             <div class="row">
               <?php
-              if(have_posts() ):
-                while(have_posts()): the_post();
+              $args=array(
+                'post_type'  => 'post',
+                'posts_per_page'=>2,
+              );
+              $blog_posts= new WP_Query($args);
+              if($blog_posts->have_posts() ):
+                while($blog_posts->have_posts()): $blog_posts->the_post();
                 ?>
-                <article>
-                  <h2><?php the_title(); ?></h2>
-                  <div><?php the_content();?></div>
+                <article class="col-12 col-md-6">
+                <a href="<?php the_permalink();?>">
+                  <?php
+                    if(has_post_thumbnail()):
+                      the_post_thumbnail('kidtheme-blog',array('class'=>'img-fluid'));
+                    endif;
+                  ?>
+                  </a>
+                  <h3>
+                    <a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
+                  <div class="excerpt"><?php the_excerpt();?></div>
                 </article>
                 <?php
               endwhile;
+               wp_reset_postdata();
             else:
             ?>
-            <p>Nothing to display</p>
+            <p><?php _e('Nothing to display','kidtheme');?></p>
             <?php endif; ?>
             
             </div>

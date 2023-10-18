@@ -1,25 +1,25 @@
 <?php
 /**
- * The header.
+ * The template for displaying search results pages
  *
- * This is the template that displays all of the <head> section and everything up until main.
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Kid Theme
+ * @package KidTheme
+
  */
 
- get_header();
+get_header();
  ?>
     <div class="content-area">
       <main>
           <div class="container">
             <div class="row">
-              <div class="col-lg-9 col-md-8 col-12">
+              <h1><?php _e('Search results for','kidtheme');?>: <?php echo get_search_query();?></h1>
               <?php
+              get_search_form();
               if(have_posts() ):
                 while(have_posts()): the_post();
-                    get_template_part('template-parts/content');
+                get_template_part('template-parts/content','search');
               endwhile;
               the_posts_pagination(array(
                 'prev_text'   => __('Previous','kidtheme'),
@@ -28,10 +28,9 @@
               ));
             else:
             ?>
-            <p><?php _e('Nothing to display','kidtheme');?></p>
+            <p><?php _e('There are no results for your query.','kidtheme');?></p>
             <?php endif; ?>
-            </div>   
-              <?php get_sidebar(); ?>        
+            
             </div>
           </div>
       </main>
