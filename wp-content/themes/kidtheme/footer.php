@@ -14,10 +14,10 @@
 <footer>
       <section class="footer-widgets">
         <div class="container">
-          <div class="row">Footer Widgets</div>
+          <div class="row"></div>
         </div>
       </section>
-      <section class="copyright">
+      <section class="copyright footer-bg">
         <div class="container">
           <div class="row">
             <?php if(is_active_sidebar('kidtheme-sidebar-footer1')): ?>

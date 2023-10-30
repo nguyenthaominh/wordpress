@@ -1878,7 +1878,7 @@ function comment_reply_link( $args = array(), $comment = null, $post = null ) {
  *     @type string $respond_id The selector identifying the responding comment. Passed as the third parameter
  *                              to addComment.moveForm(), and appended to the link URL as a hash value.
  *                              Default 'respond'.
- *     @type string $reply_text Text of the Reply link. Default is 'Leave a Comment'.
+ *     @type string $reply_text Text of the Reply link. Default is ''.
  *     @type string $login_text Text of the link to reply if logged out. Default is 'Log in to leave a Comment'.
  *     @type string $before     Text or HTML to add before the reply link. Default empty.
  *     @type string $after      Text or HTML to add after the reply link. Default empty.

@@ -20,7 +20,7 @@
     ?>
   </div>
   <div class="meta">
-    <p><?php _e('Published by','kidtheme');?><?php the_author_posts_link();?> <?php _e('on','kidtheme');?> <?php echo get_the_date();?>
+    <p><?php _e('Đăng bởi ','kidtheme');?><?php the_author_posts_link();?> <?php _e(' Ngày','kidtheme');?> <?php echo get_the_date();?>
   <br />
   <?php if(has_category()):?>
     <?php _e('Categories','kidtheme');?>: <span><?php the_category(' ')?></span>

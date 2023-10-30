@@ -13,7 +13,7 @@
   <header>
     <h1><?php the_title(); ?></h1>
     <div class="meta">
-      <p><?php _e('Published by','kidtheme');?><?php the_author_posts_link(); ?> <?php _e('on','kidtheme');?><?php echo get_the_date(); ?><br/>
+      <p><?php _e('Đăng bởi ','kidtheme');?><?php the_author_posts_link(); ?> <?php _e(' Ngày','kidtheme');?><?php echo get_the_date(); ?><br/>
       <?php _e('Categories','kidtheme');?>:<span><?php the_category(' ');?></span>
       <?php if(has_tag()):?>
         <?php _e('Tags','kidtheme');?>:<span><?php the_tags('',', ');?></span>

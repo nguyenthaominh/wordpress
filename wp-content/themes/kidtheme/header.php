@@ -22,14 +22,14 @@
     <header>
       <section class="search">
         <div class="container">
-          <div class="text-center d-md-flex align-items-center">
+          <!-- <div class="text-center d-md-flex align-items-center">
           <?php get_search_form();?></div>
-          </div>
+          </div> -->
       </section>
       <section class="top-bar">
           <div class="container">
             <div class="row">
-                <div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">
+                <div class=" brand col-md-3 col-12 col-lg-2 text-center text-md-left">
                 <a href="<?php echo home_url('/')?>">
                   <?php if(has_custom_logo()):?>
                     <?php the_custom_logo()?>
@@ -39,34 +39,37 @@
                   <?php endif;?>
                   </a>
                 </div>
-                <div class="second-column col-md-9 col-12 col-lg-10">
+                <div class="top3 col-md-3 col-12 col-lg-4">
+                <?php get_search_form();?></div>
+                <div class="top3 second-column col-md-6 col-lg-6">
                   <div class="row">
                     <?php if(class_exists('WooCommerce')):?>
-                    <div class="account col-12">
+                    <div class="account col-lg-6">
                       <div class="navbar-expand">
                         <ul class="nav-bar float-left">
                           <?php if(is_user_logged_in()):?>
-                          <li>
-                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))) ?>" class="nav-link"><?php _e('My Account','kidtheme');?></a>
+                          <li class="">
+                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))) ?>" class="nav-link"></i><?php _e('Tài Khoản','kidtheme');?></a>
                           </li>
-                          <li>
-                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))) ?>" class="nav-link"><?php _e('Logout','kidtheme');?></a>
+                          <li class="left10">
+                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))) ?>" class="nav-link"><?php _e('Đăng xuất','kidtheme');?></a>
                           </li>
                           <?php else: ?>
-                            <li>
-                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))) ?>" class="nav-link"><?php _e('Login/Register','kidtheme');?></a>
+                            <li class="left10">
+                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))) ?>" class="nav-link"><?php _e('Đăng nhập/Đăng ký','kidtheme');?></a>
                           </li>
                           <?php endif; ?>
-
-
                         </ul>
                       </div>
-                      <div class="cart text-right">
+                      </div>
+                      <div class="cart text-right float-left col-lg-6">
                         <a href="<?php echo wc_get_cart_url(); ?>"><span class="cart-icon"></span></a>
                         <span class="items"><?php echo WC()->cart->get_cart_contents_count();?></span>
                       </div>
                     </div>
                     <?php endif;?>
+                  </div>
+                </div>
                     <div class="col-12">
                       <nav class=" main-menu navbar navbar-expand-md navbar-light" role="navigation">
                             <!-- Brand and toggle get grouped for better mobile display -->

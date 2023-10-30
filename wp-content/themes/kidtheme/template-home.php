@@ -62,7 +62,7 @@ get_header();
           ?>
           <div class="container">
             <div class="section-title">
-            <h2><?php echo get_theme_mod('set_popular_title', __('Popular Product','kidtheme'));?></h2>
+            <h2><?php echo get_theme_mod('set_popular_title', __('Sản phẩm phổ biến','kidtheme'));?></h2>
             </div>
             <?php echo do_shortcode('[products limit="'.$popular_limit.'" columns="'.$popular_col.'" orderby="popularity"]');?>
           </div>
@@ -70,7 +70,7 @@ get_header();
         <section class="new-arrivals">
           <div class="container">
           <div class="section-title">
-            <h2><?php echo get_theme_mod('set_new_arrivals_title', __('New Arrivals','kidtheme'));?></h2>
+            <h2><?php echo get_theme_mod('set_new_arrivals_title', __('Sản phẩm mới','kidtheme'));?></h2>
           </div>
           <?php echo do_shortcode('[products limit="'.$arrivals_limit.'" columns="'.$arrivals_col.'" orderby="date"]');?>
           </div>
@@ -88,7 +88,7 @@ get_header();
         <section class="deal-of-the-week">
           <div class="container">
             <div class="section-title">
-            <h2><?php echo get_theme_mod('set_deal_title', __('Deal of the Week','kidtheme'));?></h2>
+            <h2><?php echo get_theme_mod('set_deal_title', __('Giảm giá trong tuần','kidtheme'));?></h2>
             </div>
               <h2></h2>
               <div class="row d-flex algin-items-center">
@@ -132,7 +132,7 @@ get_header();
         <section class="lab-blog">
           <div class="container">
             <div class="section-title">
-              <h2><?php echo get_theme_mod('set_blog_title',__('News From Our Blog','kidtheme'));?></h2>
+              <h2><?php echo get_theme_mod('set_blog_title',__('Tin tức','kidtheme'));?></h2>
 
             </div>
             <div class="row">
@@ -162,7 +162,7 @@ get_header();
                wp_reset_postdata();
             else:
             ?>
-            <p><?php _e('Nothing to display','kidtheme');?></p>
+            <p><?php _e('Không có tin tức','kidtheme');?></p>
             <?php endif; ?>
             
             </div>

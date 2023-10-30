@@ -71,7 +71,7 @@ if ( have_comments() ) :
 <?php
 comment_form(
   array(
-    'title_reply'        => esc_html__( 'Leave a comment', 'kidtheme' ),
+    'title_reply'        => esc_html__( 'Bình luận', 'kidtheme' ),
     'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
     'title_reply_after'  => '</h2>',
   )
