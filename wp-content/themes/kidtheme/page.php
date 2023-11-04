@@ -10,6 +10,7 @@
  */
 
  get_header();
+ echo do_shortcode("[mv_slider orderby='rand'][/mv_slider]");
  ?>
     <div class="content-area">
       <main>
