@@ -52,6 +52,46 @@ get_header();
           </ul>
         </div>
         </section>
+        <div class="promotion-banner container">
+            <div class="promotion-delivery promotion">
+              <ul> <a href="#">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                </svg></li>
+                <li class="upcase">giao hàng toàn quốc</li>
+                <li>Miễn phí vận chuyển với các hóa đơn hàng trị giá trên 2.000.000Đ</li>
+              <ul>
+                </a>
+            </div>
+            <div class="promotion-tel promotion">
+              <ul> <a href="#">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                </svg></li>
+                <li class="upcase">hỗ trợ online 24/24</li>
+                <li>Luôn hỗ trợ khách hàng 24/24 tất cả các ngày trong tuần</li>
+              <ul></a>
+              </a> 
+            </div>
+            <div class="promotion-back promotion">
+              <ul> <a href="#">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-ubuntu" viewBox="0 0 16 16">
+                  <path d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546ZM7.4 13.108a5.535 5.535 0 0 1-3.775-2.88 3.273 3.273 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.253 3.253 0 0 1-.666-1.9 5.639 5.639 0 0 1-.557-.091Zm3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546Zm3.163-3.108a7.436 7.436 0 0 0 .373-8.726 3.276 3.276 0 0 1-1.278 1.498 5.573 5.573 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693ZM2.098 3.998a3.28 3.28 0 0 1 1.897.486 5.544 5.544 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.472 7.472 0 0 0-7.051 3.745Z"/>
+                </svg></li>
+                <li class="upcase">đổi hàng dễ dàng </li>
+                <li>Miễn phí đổi trả trong 30 ngày đầu tiên cho tất cả mặt hàng</li>
+              <ul> </a>
+            </div>
+            <div class="promotion-gif promotion">
+              <ul> <a href="#">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-gift" viewBox="0 0 16 16">
+                  <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z"/>
+                </svg></li>
+                <li class="upcase">quà tặng hấp dẫn </li>
+                <li>Chương trình khuyến mãi cực lớn và hấp dẫn hàng tháng</li>
+              <ul> </a>
+            </div>
+      </div> 
         <?php if(class_exists('WooCommerce')): ?>
         <section class="popular-products">
           <?php
@@ -61,8 +101,8 @@ get_header();
           $arrivals_col=get_theme_mod('set_new_arrivals_max_col',4);
           ?>
           <div class="container">
-            <div class="section-title">
-            <h2><?php echo get_theme_mod('set_popular_title', __('Sản phẩm phổ biến','kidtheme'));?></h2>
+            <div class="section-title tieude">
+            <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_popular_title', __('Sản phẩm phổ biến','kidtheme'));?>&#9739</h2>
             </div>
             <?php echo do_shortcode('[products limit="'.$popular_limit.'" columns="'.$popular_col.'" orderby="popularity"]');?>
           </div>
@@ -70,7 +110,7 @@ get_header();
         <section class="new-arrivals">
           <div class="container">
           <div class="section-title">
-            <h2><?php echo get_theme_mod('set_new_arrivals_title', __('Sản phẩm mới','kidtheme'));?></h2>
+            <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_new_arrivals_title', __('Sản phẩm mới','kidtheme'));?>&#9739</h2>
           </div>
           <?php echo do_shortcode('[products limit="'.$arrivals_limit.'" columns="'.$arrivals_col.'" orderby="date"]');?>
           </div>
@@ -88,7 +128,7 @@ get_header();
         <section class="deal-of-the-week">
           <div class="container">
             <div class="section-title">
-            <h2><?php echo get_theme_mod('set_deal_title', __('Giảm giá trong tuần','kidtheme'));?></h2>
+            <h2 class="upcase"><?php echo get_theme_mod('set_deal_title', __('Giảm giá trong tuần','kidtheme'));?></h2>
             </div>
               <h2></h2>
               <div class="row d-flex algin-items-center">
@@ -106,14 +146,14 @@ get_header();
               </h3>
               <p><?php echo get_the_excerpt($deal); ?></p>
               <div class="prices">
-                <span class="regular">
+                <span class="regular regular1">
                   <?php
                   echo $currency;
                   echo $regular;
                   ?>
                 </span>
                 <?php if(!empty($sale)): ?>
-                  <span class="sale">
+                  <span class="sale sale1">
                     <?php
                     echo $currency;
                     echo $sale;
@@ -121,7 +161,7 @@ get_header();
                   </span>
                   <?php endif;?>
               </div>
-              <a href="<?php echo esc_url('add-to-cart='.$deal);?>" class="add-to-cart"><?php _e('Add to Cart','kidtheme'); ?> </a>
+              <a href="<?php echo esc_url('?add-to-cart='.$deal);?>" class="add-to-cart"><?php _e('Thêm vào giỏ hàng','kidtheme'); ?> <i style="color:black" class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -132,7 +172,7 @@ get_header();
         <section class="lab-blog">
           <div class="container">
             <div class="section-title">
-              <h2><?php echo get_theme_mod('set_blog_title',__('Tin tức','kidtheme'));?></h2>
+              <h2 class="upcase khoangtrong"><?php echo get_theme_mod('set_blog_title',__('Tin tức','kidtheme'));?></h2>
 
             </div>
             <div class="row">

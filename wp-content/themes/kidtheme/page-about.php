@@ -11,6 +11,10 @@
 
  get_header();
  ?>
+ 		<section >
+						<div class="banner-product">
+						</div>
+		</section>
     <div class="content-area">
       <main>
           <div class="container">

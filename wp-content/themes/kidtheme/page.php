@@ -10,8 +10,11 @@
  */
 
  get_header();
- echo do_shortcode("[mv_slider orderby='rand'][/mv_slider]");
  ?>
+ 		<section >
+						<div class="banner-product">
+						</div>
+		</section>
     <div class="content-area">
       <main>
           <div class="container">

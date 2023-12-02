@@ -1,0 +1,28 @@
+2023-11-30T05:59:17+00:00 CRITICAL syntax error, unexpected token "<" in D:\Website\ntm_wp\wp-content\themes\kidtheme\functions.php on line 145
+
+2023-11-30T06:01:07+00:00 CRITICAL syntax error, unexpected token "<" in D:\Website\ntm_wp\wp-content\themes\kidtheme\functions.php on line 145
+
+2023-11-30T06:01:18+00:00 CRITICAL syntax error, unexpected token "<" in D:\Website\ntm_wp\wp-content\themes\kidtheme\functions.php on line 145
+
+2023-11-30T06:03:08+00:00 CRITICAL syntax error, unexpected token "<" in D:\Website\ntm_wp\wp-content\themes\kidtheme\functions.php on line 145
+
+2023-11-30T12:48:01+00:00 CRITICAL Uncaught Error: Call to undefined function kidtheme_get_icon_svg() in D:\Website\ntm_wp\wp-content\themes\kidtheme\comments.php:54
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\comment-template.php(1615): require()
+#1 D:\Website\ntm_wp\wp-content\themes\kidtheme\single.php(18): comments_template()
+#2 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#3 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#4 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#5 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\comments.php on line 54
+
+2023-11-30T14:26:29+00:00 CRITICAL Uncaught Error: Call to undefined function kidtheme_get_icon_svg() in D:\Website\ntm_wp\wp-content\themes\kidtheme\comments.php:54
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\comment-template.php(1615): require()
+#1 D:\Website\ntm_wp\wp-content\themes\kidtheme\single.php(18): comments_template()
+#2 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#3 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#4 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#5 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\comments.php on line 54
+

@@ -16,23 +16,24 @@ if(post_password_required()){
 <div id="comments" class="comments-area default-max-width <?php echo get_option( 'show_avatars' ) ? 'show-avatars' : ''; ?>">
 
 <?php
+$kidtheme_comment_count = get_comments_number();
 if ( have_comments() ) :
   ?>
-  <h2 class="comments-title">
+  <h2 class="comments-title" style="font-size: 24px; margin-bottom: 20px;">
     <?php if ( '1' === $kidtheme_comment_count ) : ?>
-      <?php esc_html_e( '1 comment', 'kidtheme' ); ?>
+      <?php esc_html_e( '1 Bình luận', 'kidtheme' ); ?>
     <?php else : ?>
       <?php
       printf(
         /* translators: %s: Comment count number. */
-        esc_html( _nx( '%s comment', '%s comments', $kidtheme_comment_count, 'Comments title', 'kidtheme' ) ),
+        esc_html( _nx( '%s Bình luận', '%s Bình luận', $kidtheme_comment_count, 'Comments title', 'kidtheme' ) ),
         esc_html( number_format_i18n( $kidtheme_comment_count ) )
       );
       ?>
     <?php endif; ?>
   </h2><!-- .comments-title -->
 
-  <ol class="comment-list">
+  <ol class="comment-list" style="list-style: none; margin: 0; padding: 0;">
     <?php
     wp_list_comments(
       array(
@@ -47,21 +48,13 @@ if ( have_comments() ) :
   <?php
   the_comments_pagination(
     array(
-      'before_page_number' => esc_html__( 'Page', 'kidtheme' ) . ' ',
-      'mid_size'           => 0,
-      'prev_text'          => sprintf(
-        '%s <span class="nav-prev-text">%s</span>',
-        is_rtl() ? kidtheme_get_icon_svg( 'ui', 'arrow_right' ) : kidtheme_get_icon_svg( 'ui', 'arrow_left' ),
-        esc_html__( 'Older comments', 'kidtheme' )
-      ),
-      'next_text'          => sprintf(
-        '<span class="nav-next-text">%s</span> %s',
-        esc_html__( 'Newer comments', 'kidtheme' ),
-        is_rtl() ? kidtheme_get_icon_svg( 'ui', 'arrow_left' ) : kidtheme_get_icon_svg( 'ui', 'arrow_right' )
-      ),
+        'before_page_number' => esc_html__( 'Page', 'kidtheme' ) . ' ',
+        'mid_size'           => 0,
+        'prev_text'          => is_rtl() ? '&#8594; ' . esc_html__( 'Older comments', 'kidtheme' ) : esc_html__( 'Older comments', 'kidtheme' ),
+        'next_text'          => is_rtl() ? esc_html__( 'Newer comments', 'kidtheme' ) . ' &#8592;' : esc_html__( 'Newer comments', 'kidtheme' ) . ' &#8594;',
     )
-  );
-  ?>
+);
+?>
 
   <?php if ( ! comments_open() ) : ?>
     <p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'kidtheme' ); ?></p>

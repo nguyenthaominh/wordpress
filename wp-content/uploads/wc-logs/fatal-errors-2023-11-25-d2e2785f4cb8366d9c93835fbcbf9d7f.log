@@ -1,0 +1,125 @@
+2023-11-25T11:02:31+00:00 CRITICAL Uncaught Error: Call to undefined function fl_woocommerce_version_check() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php:168
+Stack trace:
+#0 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Website\ntm_wp\wp-includes\shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Website\ntm_wp\wp-includes\shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Website\ntm_wp\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-parts\content-page.php(13): the_content()
+#11 D:\Website\ntm_wp\wp-includes\template.php(787): require('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', false, Array)
+#13 D:\Website\ntm_wp\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 D:\Website\ntm_wp\wp-content\themes\kidtheme\page.php(21): get_template_part('template-parts/...', 'page')
+#15 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#16 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#17 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#18 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php on line 168
+
+2023-11-25T11:02:37+00:00 CRITICAL Uncaught Error: Call to undefined function fl_woocommerce_version_check() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php:168
+Stack trace:
+#0 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Website\ntm_wp\wp-includes\shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Website\ntm_wp\wp-includes\shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Website\ntm_wp\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-parts\content-page.php(13): the_content()
+#11 D:\Website\ntm_wp\wp-includes\template.php(787): require('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', false, Array)
+#13 D:\Website\ntm_wp\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 D:\Website\ntm_wp\wp-content\themes\kidtheme\page.php(21): get_template_part('template-parts/...', 'page')
+#15 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#16 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#17 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#18 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php on line 168
+
+2023-11-25T11:03:07+00:00 CRITICAL Uncaught Error: Call to undefined function fl_woocommerce_version_check() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php:168
+Stack trace:
+#0 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Website\ntm_wp\wp-includes\shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Website\ntm_wp\wp-includes\shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Website\ntm_wp\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-parts\content-page.php(13): the_content()
+#11 D:\Website\ntm_wp\wp-includes\template.php(787): require('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', false, Array)
+#13 D:\Website\ntm_wp\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 D:\Website\ntm_wp\wp-content\themes\kidtheme\page.php(21): get_template_part('template-parts/...', 'page')
+#15 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#16 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#17 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#18 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php on line 168
+
+2023-11-25T12:09:43+00:00 CRITICAL syntax error, unexpected token "}" in D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 273
+
+2023-11-25T12:10:16+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_loop() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\archive-product.php:48
+Stack trace:
+#0 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include()
+#1 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#2 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#3 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\archive-product.php on line 48
+
+2023-11-25T13:03:48+00:00 CRITICAL Uncaught Error: Call to undefined function fl_woocommerce_version_check() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php:192
+Stack trace:
+#0 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Website\ntm_wp\wp-includes\shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Website\ntm_wp\wp-includes\shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Website\ntm_wp\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-parts\content-page.php(13): the_content()
+#11 D:\Website\ntm_wp\wp-includes\template.php(787): require('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', false, Array)
+#13 D:\Website\ntm_wp\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 D:\Website\ntm_wp\wp-content\themes\kidtheme\page.php(21): get_template_part('template-parts/...', 'page')
+#15 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#16 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#17 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#18 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php on line 192
+
+2023-11-25T13:03:51+00:00 CRITICAL Uncaught Error: Call to undefined function fl_woocommerce_version_check() in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php:192
+Stack trace:
+#0 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Website\ntm_wp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Website\ntm_wp\wp-includes\shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Website\ntm_wp\wp-includes\shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Website\ntm_wp\wp-includes\class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#8 D:\Website\ntm_wp\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Website\ntm_wp\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Website\ntm_wp\wp-content\themes\kidtheme\template-parts\content-page.php(13): the_content()
+#11 D:\Website\ntm_wp\wp-includes\template.php(787): require('D:\\Website\\ntm_...')
+#12 D:\Website\ntm_wp\wp-includes\template.php(720): load_template('D:\\Website\\ntm_...', false, Array)
+#13 D:\Website\ntm_wp\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 D:\Website\ntm_wp\wp-content\themes\kidtheme\page.php(21): get_template_part('template-parts/...', 'page')
+#15 D:\Website\ntm_wp\wp-includes\template-loader.php(106): include('D:\\Website\\ntm_...')
+#16 D:\Website\ntm_wp\wp-blog-header.php(19): require_once('D:\\Website\\ntm_...')
+#17 D:\Website\ntm_wp\index.php(17): require('D:\\Website\\ntm_...')
+#18 {main}
+  thrown in D:\Website\ntm_wp\wp-content\themes\kidtheme\woocommerce\cart\cart.php on line 192
+

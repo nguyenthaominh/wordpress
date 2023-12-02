@@ -47,7 +47,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-a{
+a {
   text-decoration: none !important;
 }
 
@@ -183,6 +183,7 @@ a{
 .search-submit {
   width: 30px;
   height: 30px;
+  background-color: white !important;
 }
 /* Cart*/
 .cart .cart-icon {
@@ -306,7 +307,7 @@ a{
 }
 .woocommerce ul.products li.product .onsale {
   top: 19px;
-  left: -20px;
+  left: 200px;
   transform: rotate(90deg);
   border-radius: 0;
   width: 84px;
@@ -443,8 +444,166 @@ a{
 .left10 {
   margin-left: 10px;
 }
-.footer-bg{
+.footer-bg {
   background-color: #312f2f;
   padding-top: 10px;
-  color:#eee;
+  color: #eee;
+}
+.header-main {
+  background-color: #000;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #ca2424;
+}
+.find {
+  color: white;
+  font-weight: 500;
+}
+.submit2 {
+  margin-left: -40px;
+}
+.cart-icon {
+  color: white !important;
+  width: 70px !important;
+}
+.main-menu {
+  margin-left: 200px;
+}
+/* PROMOTION*/
+.banner {
+  position: relative;
+}
+.promotion-banner {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  background-color: #3f3fdb;
+  margin-top: -60px !important;
+  margin-bottom: 60px !important;
+}
+.promotion-banner ul {
+  list-style-type: none;
+}
+.promotion-banner a {
+  text-decoration: none;
+}
+.promotion {
+  margin: 10px 0px 0px;
+}
+.promotion ul li {
+  color: white;
+  padding: 5px 0px 0px;
+}
+.promotion ul li:hover {
+  color: #f94a2f;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.upcase {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.sub-title {
+  color: #3f3fdb;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+.center {
+  text-align: center;
+}
+/* .tensp{
+  color:red;
+} */
+.tensp {
+  color: #0f0f0f;
+  font-size: 20px;
+}
+.tensp:hover {
+  color: #f86953;
+}
+.banner-product {
+  background-image: url(https://bizweb.dktcdn.net/100/423/630/files/bg-breadcrumb.jpg?v=1640052952057);
+  background-size: 100% 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.giohang:hover {
+  color: #f86953;
+}
+.giohang {
+  margin-right: 50px;
+}
+.giohang1 {
+  margin-left: -50px;
+}
+.kichthuoc {
+  font-size: 18px;
+}
+.yeuthich {
+  text-align: right;
+}
+.yeuthich1 {
+  margin-left: -50px;
+}
+.product_type_external,
+.product_type_simple,
+.product_type_grouped,
+.product_type_variable {
+  background-color: #db633f !important;
+  border-radius: 30px !important;
+  text-align: center !important;
+}
+.yith-wcwl-icon {
+  color: rgb(182, 5, 5) !important;
+}
+.menu li a {
+  color: rgb(255, 255, 255) !important;
+}
+.menu li a:hover {
+  color: #db633f !important;
+}
+.menu {
+  list-style: none !important;
+}
+
+.widget_meta ul {
+  list-style: none !important;
+}
+.widget_meta li a {
+  color: rgb(255, 255, 255) !important;
+}
+.widget_meta li a:hover {
+  color: #db633f !important;
+}
+.discount {
+  font-size: 50px !important;
+  color: red;
+  font-weight: 900;
+}
+.regular1 {
+  text-decoration: line-through;
+  font-size: 20px !important;
+}
+.sale1 {
+  font-size: 30px !important;
+  font-weight: 900;
+}
+.khoangtrong {
+  margin-top: 10px;
+}
+.product-categories li {
+  list-style: none;
+  font-size: 20px;
+}
+/* .widget_recent_entries ul li {
+  list-style: none !important;
+} */
+.woocommerce-MyAccount-navigation ul li {
+  list-style: none;
 }
