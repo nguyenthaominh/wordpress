@@ -94,7 +94,7 @@ None so far.
 * Fix showing included files at bottom when visitor visits the site. This issue was reported by @tsato. Thank you very much!
 
 = 0.4.0 =
-* Fix not showing all included files with WordPress version 5.4 or greater.
+* Fix not Hiển thịincluded files with WordPress version 5.4 or greater.
 * Clean up some code.
 
 = 0.3.4 =

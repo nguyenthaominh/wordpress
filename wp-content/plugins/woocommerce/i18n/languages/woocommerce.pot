@@ -39525,8 +39525,8 @@ msgstr ""
 
 #. translators: %d: total results
 #: templates/loop/result-count.php:31
-msgid "Showing all %d result"
-msgid_plural "Showing all %d results"
+msgid "Hiển thị %d result"
+msgid_plural "Hiển thị %d kết quả"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -46684,7 +46684,7 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:97
 #: packages/woocommerce-blocks/build/all-products.js:25
-msgid "Showing All Products block preview."
+msgid "Hiển thịProducts block preview."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:112

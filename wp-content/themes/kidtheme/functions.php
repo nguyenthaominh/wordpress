@@ -47,9 +47,9 @@ function kidtheme_config(){
         'default_rows'=>10,
         'min_rows'=>5,
         'max_rows'=>10,
-        'default_columns'=>1,
-        'min_columns'=>1,
-        'max_columns'=>1,
+        'default_columns'=>4,
+        'min_columns'=>4,
+        'max_columns'=>4,
       )
     ));
     add_theme_support( 'wc-product-gallery-zoom' );

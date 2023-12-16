@@ -7,8 +7,8 @@ function kidtheme_customizer($wp_customize){
   //Copyright Section
   $wp_customize->add_section(
     'sec_copyright',array(
-      'title' => __('Copyright Settings','kidtheme'),
-      'description'=> __('Copyright Section','kidtheme')
+      'title' => __('Cài đặt phần Copyright','kidtheme'),
+      'description'=> __('Cài đặt phần Copyright','kidtheme')
     )
 
   );
@@ -32,8 +32,8 @@ function kidtheme_customizer($wp_customize){
   //Slider Section
   $wp_customize->add_section(
     'sec_slider',array(
-      'title'       => __('Slider Settings','kidtheme'),
-      'description' => __('Slider Section','kidtheme')
+      'title'       => __('Cài đặt slider','kidtheme'),
+      'description' => __('Cài đặt slider','kidtheme')
     )
     );
 
@@ -186,38 +186,38 @@ function kidtheme_customizer($wp_customize){
       //Home Page Settings
       $wp_customize->add_section(
         'sec_home_page',array(
-          'title'       =>__('Home Page Products and Blog Setting','kidtheme'),
-          'description' =>__('Home Page Section','kidtheme')
+          'title'       =>__('Cài đặt trang chủ','kidtheme'),
+          'description' =>__('Cài đặt trang chủ','kidtheme')
         )
         );
 
-        // Field1-Slider page Number1
+        // Sản phẩm bán chạy
         $wp_customize->add_setting(
-          'set_popular_max_num',array(
+          'set_best_selling_products_max_num',array(
             'type'              => 'theme_mod',
             'default'           =>'',
             'sanitize_callback' =>'absint'
           )
           );
           $wp_customize->add_control(
-            'set_popular_max_num',array(
-              'label'       =>__('Popular Products Max Number','kidtheme'),
-              'description' =>__('Popular Products Max Number','kidtheme'),
+            'set_best_selling_products_max_num',array(
+              'label'       =>__('Sản phẩm bán chạy','kidtheme'),
+              'description' =>__('Số lượng sản phẩm','kidtheme'),
               'section'     =>'sec_home_page',
               'type'        =>'number'
             )
             );
             $wp_customize->add_setting(
-              'set_popular_max_col',array(
+              'set_best_selling_products_max_col',array(
                 'type'              => 'theme_mod',
                 'default'           =>'',
                 'sanitize_callback' =>'absint'
               )
               );
             $wp_customize->add_control(
-                'set_popular_max_col',array(
-                  'label'           =>__('Popular Products Max Columns','kidtheme'),
-                  'description'     =>__('Popular Products Max Columns','kidtheme'),
+                'set_best_selling_products_max_col',array(
+                  'label'           =>__('Sản phẩm bán chạy','kidtheme'),
+                  'description'     =>__('Số lượng sản phẩm tối đa trên một hàng','kidtheme'),
                   'section'         =>'sec_home_page',
                   'type'            =>'number'
                 )
@@ -253,6 +253,38 @@ function kidtheme_customizer($wp_customize){
                   'type'            =>'number'
                 )
                 );
+            
+            // Field1-Slider page Sale products
+        $wp_customize->add_setting(
+          'set_sale_products_max_num',array(
+            'type'              => 'theme_mod',
+            'default'           =>'',
+            'sanitize_callback' =>'absint'
+          )
+          );
+          $wp_customize->add_control(
+            'set_sale_products_max_num',array(
+              'label'       =>__('Sale Products Max Number','kidtheme'),
+              'description' =>__('Sale Products Max Number','kidtheme'),
+              'section'     =>'sec_home_page',
+              'type'        =>'number'
+            )
+            );
+            $wp_customize->add_setting(
+              'set_sale_products_max_col',array(
+                'type'              => 'theme_mod',
+                'default'           =>'',
+                'sanitize_callback' =>'absint'
+              )
+              );
+            $wp_customize->add_control(
+                'set_sale_products_max_col',array(
+                  'label'           =>__('Sale Products Max Columns','kidtheme'),
+                  'description'     =>__('Sale Products Max Columns','kidtheme'),
+                  'section'         =>'sec_home_page',
+                  'type'            =>'number'
+                )
+                );
              //Deal of the Week Checkbox
              $wp_customize->add_setting(
               'set_deal_show',array(
@@ -263,7 +295,7 @@ function kidtheme_customizer($wp_customize){
               );
             $wp_customize->add_control(
                 'set_deal_show',array(
-                  'label'           =>__('Show Deal of the Weel?','kidtheme'),
+                  'label'           =>__('Bạn có muốn hiển thị quảng cáo giảm giá trong tuần','kidtheme'),
                   'section'         =>'sec_home_page',
                   'type'            =>'checkbox'
                 )
@@ -278,8 +310,8 @@ function kidtheme_customizer($wp_customize){
               );
             $wp_customize->add_control(
                 'set_deal',array(
-                  'label'           =>__('Deal of the Week Product ID','kidtheme'),
-                  'description'     =>__('Product ID to Display','kidtheme'),
+                  'label'           =>__('ID sản phẩm giảm giá','kidtheme'),
+                  'description'     =>__('Hiển thị sản phẩm Id','kidtheme'),
                   'section'         =>'sec_home_page',
                   'type'            =>'number'
                 )

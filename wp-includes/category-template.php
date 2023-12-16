@@ -306,7 +306,7 @@ function category_description( $category = 0 ) {
  *     Optional. Array or string of arguments to generate a categories drop-down element. See WP_Term_Query::__construct()
  *     for information on additional accepted arguments.
  *
- *     @type string       $show_option_all   Text to display for showing all categories. Default empty.
+ *     @type string       $show_option_all   Text to display for Hiển thịcategories. Default empty.
  *     @type string       $show_option_none  Text to display for showing no categories. Default empty.
  *     @type string       $option_none_value Value to use when no category is selected. Default empty.
  *     @type string       $orderby           Which column to use for ordering categories. See get_terms() for a list
@@ -518,7 +518,7 @@ function wp_dropdown_categories( $args = '' ) {
  *     @type string       $separator             Separator between links. Default '<br />'.
  *     @type bool|int     $show_count            Whether to include post counts. Accepts 0, 1, or their bool equivalents.
  *                                               Default 0.
- *     @type string       $show_option_all       Text to display for showing all categories. Default empty string.
+ *     @type string       $show_option_all       Text to display for Hiển thịcategories. Default empty string.
  *     @type string       $show_option_none      Text to display for the 'no categories' option.
  *                                               Default 'No categories'.
  *     @type string       $style                 The style used to display the categories list. If 'list', categories

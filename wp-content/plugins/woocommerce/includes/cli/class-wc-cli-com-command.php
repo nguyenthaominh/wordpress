@@ -34,7 +34,7 @@ class WC_CLI_COM_Command {
 	 * : If set, the command will use the specified format. Possible values are table, json, csv and yaml. By default the table format will be used.
 	 *
 	 * [--fields]
-	 * : If set, the command will show only the specified fields instead of showing all the fields in the output.
+	 * : If set, the command will show only the specified fields instead of Hiển thịthe fields in the output.
 	 *
 	 * ## EXAMPLES
 	 *

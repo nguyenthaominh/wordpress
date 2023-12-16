@@ -19,7 +19,7 @@
       <main>
       <div class="container" style="padding: 20px;">
         <div class="row" style="margin: 0;">
-            <div class="col-lg-9 col-md-8 col-12" style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <div class="col-lg-9 col-md-8 col-12" style="background-color: #f6f2e4; padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
                 <?php
                 if (have_posts()):
                     while (have_posts()):

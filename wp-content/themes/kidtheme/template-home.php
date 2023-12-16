@@ -53,7 +53,8 @@ get_header();
         </div>
         </section>
         <div class="promotion-banner container">
-            <div class="promotion-delivery promotion">
+          <div class="row">
+            <div class="col-sm-3 col-lg-3 promotion-delivery promotion">
               <ul> <a href="#">
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
                   <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
@@ -63,7 +64,7 @@ get_header();
               <ul>
                 </a>
             </div>
-            <div class="promotion-tel promotion">
+            <div class="col-sm-3 col-lg-3 promotion-tel promotion">
               <ul> <a href="#">
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
                   <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
@@ -73,7 +74,7 @@ get_header();
               <ul></a>
               </a> 
             </div>
-            <div class="promotion-back promotion">
+            <div class=" col-sm-3 col-lg-3 promotion-back promotion">
               <ul> <a href="#">
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-ubuntu" viewBox="0 0 16 16">
                   <path d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546ZM7.4 13.108a5.535 5.535 0 0 1-3.775-2.88 3.273 3.273 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.253 3.253 0 0 1-.666-1.9 5.639 5.639 0 0 1-.557-.091Zm3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546Zm3.163-3.108a7.436 7.436 0 0 0 .373-8.726 3.276 3.276 0 0 1-1.278 1.498 5.573 5.573 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693ZM2.098 3.998a3.28 3.28 0 0 1 1.897.486 5.544 5.544 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.472 7.472 0 0 0-7.051 3.745Z"/>
@@ -82,7 +83,7 @@ get_header();
                 <li>Miễn phí đổi trả trong 30 ngày đầu tiên cho tất cả mặt hàng</li>
               <ul> </a>
             </div>
-            <div class="promotion-gif promotion">
+            <div class="col-sm-3 col-lg-3  promotion-gif promotion">
               <ul> <a href="#">
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-gift" viewBox="0 0 16 16">
                   <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z"/>
@@ -91,20 +92,26 @@ get_header();
                 <li>Chương trình khuyến mãi cực lớn và hấp dẫn hàng tháng</li>
               <ul> </a>
             </div>
+            </div>
       </div> 
         <?php if(class_exists('WooCommerce')): ?>
-        <section class="popular-products">
+        <section class="best-selling-products">
+          
           <?php
-          $popular_limit =get_theme_mod('set_popular_max_num',4);
-          $popular_col=get_theme_mod('set_popular_max_col',4);
+          $best_selling_products_limit=get_theme_mod('set_best_selling_products_max_num',4);
+          $best_selling_products_col=get_theme_mod('set_best_selling_products_max_col',4);
           $arrivals_limit=get_theme_mod('set_new_arrivals_max_num',4);
           $arrivals_col=get_theme_mod('set_new_arrivals_max_col',4);
+          $sale_products_limit=get_theme_mod('set_sale_products_max_num',4);
+          $sale_products_col=get_theme_mod('set_sale_products_max_col',4);
           ?>
           <div class="container">
-            <div class="section-title tieude">
-            <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_popular_title', __('Sản phẩm phổ biến','kidtheme'));?>&#9739</h2>
+            <div class="row">
+              <div class="section-title tieude">
+              <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_best_selling_products_title', __('Sản phẩm bán chạy','kidtheme'));?>&#9739</h2>
+              </div>
+              <?php echo do_shortcode('[best_selling_products limit="'.$best_selling_products_limit.'" columns="'.$best_selling_products_col.'" orderby="popularity"]');?>
             </div>
-            <?php echo do_shortcode('[products limit="'.$popular_limit.'" columns="'.$popular_col.'" orderby="popularity"]');?>
           </div>
         </section>
         <section class="new-arrivals">
@@ -113,6 +120,14 @@ get_header();
             <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_new_arrivals_title', __('Sản phẩm mới','kidtheme'));?>&#9739</h2>
           </div>
           <?php echo do_shortcode('[products limit="'.$arrivals_limit.'" columns="'.$arrivals_col.'" orderby="date"]');?>
+          </div>
+        </section>
+        <section class="sale_products_products">
+          <div class="container">
+          <div class="section-title">
+            <h2 class="upcase sub-title center">&#9739<?php echo get_theme_mod('set_sale_products_products_title', __('Sản phẩm khuyến mãi','kidtheme'));?>&#9739</h2>
+          </div>
+          <?php echo do_shortcode('[sale_products limit="'.$sale_products_limit.'" columns="'.$sale_products_col.'" orderby="date"]');?>
           </div>
         </section>
         <?php

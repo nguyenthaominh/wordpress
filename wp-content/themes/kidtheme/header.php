@@ -30,7 +30,7 @@
       <section class="top-bar">
           <div class="container">
             <div class="row">
-                <div class=" brand col-md-3 col-12 col-lg-2 text-center text-md-left">
+                <div class=" brand col-md-2 col-sm-4 col-2 col-lg-2 text-center text-md-left">
                 <a href="<?php echo home_url('/')?>">
                   <?php if(has_custom_logo()):?>
                     <?php the_custom_logo()?>
@@ -40,17 +40,17 @@
                   <?php endif;?>
                   </a>
                 </div>
-                <div class="top3 col-md-3 col-12 col-lg-4">
+                <div class="top3 col-sm-4 col-md-3 col-2 col-lg-3">
                 <?php get_search_form();?></div>
-                <div class="top3 second-column col-md-6 col-lg-6">
+                <div class="top3 second-column col-sm-4 col-1 col-md-7 col-lg-7">
                   <div class="row">
-                      <div class="cart text-right float-right col-lg-8 yeuthich ">
-                        <a href="http://localhost:8080/ntm_wp/yeu-thich/" title="Sản phẩm yêu thích"><i style="color:aliceblue" class="far fa-heart kichthuoc yeuthich1"></i></a>
-                        <a href="<?php echo wc_get_cart_url(); ?>"><span class="cart-icon"><i style="color:aliceblue" class="fas fa-shopping-cart kichthuoc giohang"></i></span></a>
+                      <div class="cart text-right float-left col-sm-7 col-lg-8 yeuthich ">
+                        <a href="http://localhost:8080/ntm_wp/yeu-thich/" title="Sản phẩm yêu thích"><i style="color:black" class="far fa-heart kichthuoc yeuthich1"></i></a>
+                        <a href="<?php echo wc_get_cart_url(); ?>"><span class="cart-icon"><i style="color:black" class="fas fa-shopping-cart kichthuoc giohang"></i></span></a>
                         <span class="items giohang1"><?php echo WC()->cart->get_cart_contents_count();?></span>
-                      </div>
                       <?php if(class_exists('WooCommerce')):?>
-                    <div class="account col-lg-4 ">
+                      </div>
+                    <div class="account col-lg-4 col-sm-5 ">
                       <div class="navbar-expand">
                         <ul class="nav-bar float-left">
                           <?php if(is_user_logged_in()):?>
@@ -58,7 +58,7 @@
                             <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))) ?>" class="nav-link"></i><?php _e('','kidtheme');?><i class="far fa-user "></i></a>
                           </li>
                           <li class="left10">
-                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))) ?>" class="nav-link"><?php _e('Đăng xuất','kidtheme');?></a>
+                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))) ?>" class="nav-link"><?php _e('','kidtheme');?></a>
                           </li>
                           <?php else: ?>
                             <li class="left10">
@@ -68,9 +68,13 @@
                         </ul>
                       </div>
                       </div>
+                      </div>
+                </div>
+            </div>
                     </div>
                     <?php endif;?>
                   </div>
+                </div>
                 </div>
                     <div class="col-12">
                       <nav class=" main-menu navbar navbar-expand-md navbar-light menu2" role="navigation">

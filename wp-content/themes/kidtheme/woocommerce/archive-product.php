@@ -18,7 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' );
-
+echo do_shortcode('[mv_slider]');
 /**
  * Hook: woocommerce_before_main_content.
  *
